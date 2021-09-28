@@ -1,0 +1,74 @@
+>>> i=10
+>>> i
+10
+>>> type(i)
+<class 'int'>
+>>> i=10.5
+>>> type(i)
+<class 'float'>
+>>> i='python'
+>>> type(i)
+<class 'str'>
+C:\python>Hello.py
+Hello World
+C:\python>Hello.py
+Hello World
+10
+script:
+i=10
+j=20
+if(i<j):
+   print(i)
+   print(j)
+   print(i+j)
+else:
+   print("hello")
+output:
+C:\python>Hello.py
+10
+20
+30
+
+>>> height=1.75
+>>> weight=63.4
+>>> height
+1.75
+>>> weight
+63.4
+>>> bmi=weight/height**2
+>>> bmi
+20.70204081632653
+
+>>> 5+7
+12
+>>> 20/4
+5.0
+>>> 61%8
+5
+>>> 2**3
+8
+>>> 7/2
+3.5
+>>> 7//2
+3
+
+>>> 6==6
+True
+>>> 6!=1
+True
+>>> 3==2
+False
+>>> 5+2
+7
+>>> i=10
+>>> i+=10
+>>> i
+20
+>>> (5<6) and (7>6)
+True
+>>> 6&5
+4
+>>> ~7
+-8
+>>> 5<<1
+10
