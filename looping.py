@@ -11,3 +11,4 @@ for i in list:
 words=['bat','hello','world']
 for w in words:
     print(w,len(w))
+
