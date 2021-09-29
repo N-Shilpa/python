@@ -1,9 +1,5 @@
-i=10
-j=20
-if(i<j):
-   print(i)
-   print(j)
-   print(i+j)
-else:
-   print("hello")
-  
+print('hello')
+def add(x,y):
+    return(x+y)
+def sub(x,y):
+    return(x-y)
