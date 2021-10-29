@@ -1,0 +1,99 @@
+ASSIGNMENT ON UNIX
+
+Slideno 41:
+
+
+
+1. mkdir test
+
+
+2. cd test
+mkdir employeelist
+mkdir skillset
+ls
+
+
+3. mkdir Test2
+-->ln -s file1 skillset
+ln file1 skillset
+-->rm skillset
+
+
+A symbolic link is an actual link to the original file, whereas a hard link is a minor copy of original file.
+If you delete the original file, the symbolic link has no value. But in the case of hard link it is entirely opposite.
+
+
+
+4. chmod g+wr test
+
+
+5. chmod g-w test
+
+
+6. chmod o+w file
+
+
+7. chmod o-w file
+
+
+8. chgrp user3 employeelist
+
+
+9. chown user5 employeelist
+
+
+10. wc -l employeelist
+
+
+Slideno 47:
+
+
+
+1. vi file1
+
+
+2. cat >>file11
+
+
+3. cat >file2
+
+
+4. cat file1 file2
+
+
+5. cat file1 >file2
+
+
+6. cat file1 file2 >file3
+
+
+7. cat file1 file2 file3 file4 file5
+
+
+8. cat file1 file2 file3 file4 file5 2>errorlog
+
+
+9. cat file1 file2 file3 file4 file5 >file10 2>&l
+
+
+10. cp file1 file2 2>errorlog
+
+
+Slideno 55:
+
+
+
+1. head -25 file1 | tail+10
+
+
+2. head -10 file1 | tail+10
+
+
+3. ls -t | head -l
+
+
+
+
+
+BY
+N SHILPA(20851)
