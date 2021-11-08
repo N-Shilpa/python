@@ -1,0 +1,101 @@
+ASSIGNMENT2 ON UNIX
+
+Slideno 61:
+
+
+1.grep "A" file
+
+
+2.grep "^The" file
+
+
+3.grep "\.$" file
+
+
+4.grep "^.[a-c]" file
+
+
+5.grep "def deef deeeef" file
+
+
+6.grep -v "^[0-9]" file
+
+
+7.empty lines
+
+
+8.grep "[user1-user10]" password
+
+
+9.ls -l | grep ^d 
+
+
+10.ls -l |grep math.h
+
+        
+Slideno 63:
+
+
+1.ls -l
+
+	
+2.ls | sort -r
+
+
+3.ls -li | sort -n
+
+
+4.ls -lr | sort -k 3
+
+  ls -lr | sort -k 4
+
+
+5.ls -laS >sortedfile
+
+  cat sortedfile
+
+ 
+Slideno 64:
+
+
+1.echo SOFWARE | tr [:UPPER]  [:LOWER] (sonata)
+
+
+2.sed -i 's/^[0-9].*$//g' file1
+
+
+3.cat file1 | sed 's/ //g'
+
+
+5.wc file1
+
+
+6.grep -o -i mauris file1|wc -l
+
+
+Slideno:92
+
+
+1.press-O
+
+
+2.press dd-to remove and u -undo
+
+
+3./bc
+
+
+4.1,$s/number/ /g  
+
+
+5.1,1s/c/C/g
+
+
+6.1,$s/ /\t/g                     
+
+
+                             
+BY
+N SHILPA(20851)
+
+
