@@ -1,0 +1,106 @@
+ASSIGNMENT ON UNIX
+
+Ascending.sh
+
+cat number.txt
+sort -n number.txt
+
+
+ArithmeticOperations.sh
+
+read a b
+expr $a + $b
+expr $a - $b
+expr $a * $b
+expr $a / $b
+expr $a % $b
+
+
+bigger.sh
+
+read -p  "enter 3  values" a b c
+if test $a -gt $b -a $a -gt $c
+then
+  echo "A is bigger"
+elif test $b -gt $c
+then
+  echo "B is bigger"
+else
+  echo "C is bigger"
+fi
+
+
+CapitalOfIndia.sh
+
+echo "What is the capital of India"
+read a
+echo $a
+until [ $a = "delhi" ]
+do
+  echo "What is the capital of India"
+  read a
+done
+
+
+Counting.sh
+
+echo "enter a string"
+read text
+word=$(echo -n "$text" | wc -w)
+char=$(echo -n "$text" | wc -c)
+echo "number of words=$word"
+echo "number of charecters=$char"
+
+
+Display.sh
+
+read a
+while [ $a != "EOF" ]
+do
+case $a in
+ [0-9]*) echo "Number";;
+ [a-z]*) echo "Alphabet";;
+ [A-Z]*) echo "Alphabet";;
+ *) echo "special character";;
+esac
+read a
+done
+
+
+File.sh
+
+echo "enter a file name"
+read file
+echo "enter a path to copy the file"
+read filepath
+cp $file $filepath
+rm $file
+
+
+FileExistence.sh
+
+read file
+if test -s $file
+then
+  echo "file exists and is not empty"
+elif test -f $file
+then
+  echo "file exists and it is empty"
+else
+  echo "file dosen't exists"
+fi
+
+
+Log.sh
+
+read user
+wall -n "hi you logged in"
+
+
+String.sh
+
+read a b
+echo $a $b
+
+BY
+N.SHILPA(20851)
